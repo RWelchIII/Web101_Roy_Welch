@@ -1,0 +1,14 @@
+.vscode/settings.json
+
+  *.cab
+  *.msi
+  *.msix
+  *.msm
+  *.msp
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+workspace.code-workspace
