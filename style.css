@@ -10,6 +10,9 @@ body {
   }
   
   .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
     border: outset 2px turquoise;
     border-radius: 50%;
     width: 100px;
@@ -63,6 +66,9 @@ body {
   }
  
   #profile-pic {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
     border: 2px outset turquoise;
     width: 300px;
     height: 300px;
