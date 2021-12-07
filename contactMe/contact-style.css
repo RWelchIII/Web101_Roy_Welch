@@ -62,18 +62,7 @@ input[type="text"], input[type="email"], textarea, select {
 textarea{
     padding: 5px 3px 3px 5px;
 }
-select {
-    background: #FFF url('down-arrow.png') no-repeat right;
-    background: rgb(255, 255, 255) url('down-arrow.png') no-repeat right);
-    appearance:none;
-    -webkit-appearance:none; 
-    -moz-appearance: none;
-    text-indent: 0.01px;
-    text-overflow: '';
-    width: 70%;
-    height: 35px;
-    line-height: 25px;
-}
+
 textarea{
     height:100px;
 }
