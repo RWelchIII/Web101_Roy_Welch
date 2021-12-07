@@ -12,7 +12,23 @@ body {
     text-align: center;
     display: block;
 } 
-
+main{
+    margin-bottom: 50px;
+}
+a {
+    text-align: center;
+    background: #000000;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 5px #ff0000;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #ff0000;
+    cursor: pointer;
+}
+a:hover {
+    background: #ff0000;
+}
 
 
 /* Small and up (Landscape Phones) */

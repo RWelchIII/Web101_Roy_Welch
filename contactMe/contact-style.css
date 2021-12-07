@@ -92,6 +92,7 @@ textarea{
 }
 
 a {
+    text-align: center;
     background: #000000;
     border: none;
     padding: 10px 25px 10px 25px;
