@@ -64,7 +64,7 @@ body {
   
     .has-border {
       border-radius: 25px;
-      border: 2px solid #0795C3;
+      border: 2px solid turquoise;
       background: none;
       padding: 20px;
     }
@@ -96,7 +96,7 @@ body {
       grid-column: 2/3;
       text-align: center;
       margin: 3% auto;
-      border-bottom: 2px solid #1940A9;;
+      border-bottom: 2px solid turquoise;
     }
   
     h2 {
@@ -227,7 +227,7 @@ body {
       grid-column: 2/3;
       text-align: center;
       margin: 3% auto;
-      border-bottom: 2px solid #1940A9;;
+      border-bottom: 2px solid turquoise;
     }
   
     h2 {
@@ -357,7 +357,7 @@ body {
       grid-column: 2/3;
       text-align: center;
       margin: 3% auto;
-      border-bottom: 2px solid #1940A9;;
+      border-bottom: 2px solid turquoise;
     }
   
     h2 {
@@ -386,10 +386,12 @@ body {
       align-items: stretch;
       grid-column: 2/3;
       margin: 3% auto;
+      margin-left: auto;
+      margin-right: auto;
       width: 100%;
       height: 60%;
       font-family: 'Courier New', Courier, monospace;
-      font-size: 15px;
+      font-size: 20px;
       border-radius: 25px;
       background: transparent;
       padding: 20px;
@@ -488,7 +490,7 @@ body {
       grid-column: 2/3;
       text-align: center;
       margin: 3% auto;
-      border-bottom: 2px solid #1940A9;;
+      border-bottom: 2px solid turquoise;
     }
   
     h2 {
@@ -522,33 +524,18 @@ body {
       width: 70%;
       height: 60%;
       font-family: 'Courier New', Courier, monospace;
-      font-size: 15px;
+      font-size: 20px;
       border-radius: 25px;
       background: transparent;
       padding: 20px;
       text-align: center stretch;
       color: rgb(255, 2, 2);
       letter-spacing: 16px;
-      font-style: italic;
+      font-style: bold;
     } 
   }
-  @media (min-width: 992px) {
-    .logo {
-      display: flex;
-      flex-shrink: inherit;
-      justify-content: space-around;
-      align-items: stretch;
-      border: outset 2px turquoise;
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      margin: 3% 10%;
-      margin-right: auto;
-      
-      
-    }
-  }
-  @media (min-width: 1080px) {
+ 
+  @media (min-width: 1600px) {
     .logo {
       display: flex;
       flex-shrink: inherit;
@@ -561,5 +548,24 @@ body {
       margin: 3% 10%;
       margin-right: auto; 
     }
-
+    button {
+      display: flex;
+      justify-content: space-around;
+      align-items: stretch;
+      grid-column: 2/3;
+      margin: 3% auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+      height: 60%;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 25px;
+      border-radius: 25px;
+      background: transparent;
+      padding: 10px;
+      text-align: center;
+      color: rgb(255, 2, 2);
+      letter-spacing: 16px;
+      font-style: bold;
+    } 
   }
