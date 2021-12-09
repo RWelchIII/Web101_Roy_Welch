@@ -7,21 +7,24 @@ body {
   radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 2px, transparent 30px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-  
   }
   
   .logo {
     display: flex;
+    flex-shrink: inherit;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
     border: outset 2px turquoise;
     border-radius: 50%;
     width: 100px;
     height: 100px;
     margin: 3% 10%;
+    
+    /* grid-column: 2/3; */
   }
 
   header {
+    column-count: 10;
     color: red;
     display: grid;
     grid-template-columns: 40% 60%;

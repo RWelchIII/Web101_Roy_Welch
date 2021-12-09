@@ -12,10 +12,10 @@ body {
     text-align: center;
     display: block;
 } 
-main{
+header {
     margin-bottom: 50px;
 }
-a {
+header a {
     text-align: center;
     background: #000000;
     border: none;
@@ -29,24 +29,106 @@ a {
 a:hover {
     background: #ff0000;
 }
-
+img {
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+    border: 2px solid red;
+}
+#anime {
+height: 300px;
+margin-bottom: 20px;
+margin-left: 100px;
+}
+#gaming {
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+#krav{
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 270px;
+}
 
 /* Small and up (Landscape Phones) */
-@media (min-width: 576px) {
+@media (min-width: 400px) {
+    #anime {
+        height: 200px;
+        width: 400px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        }
+        #gaming {
+            height: 150px;
+            margin-bottom: 20px;
+            margin-left: 120px;
+        }
+        #krav{
+            height: 150px;
+            margin-bottom: 20px;
+            margin-left: 175px;
+        }
 
 }
 
 /* Medium and up (Tablets) */
-@media (min-width: 768px) {
-
+@media (min-width: 700px) {
+    #anime {
+        height: 300px;
+        width: 600px;
+        margin-bottom: 20px;
+        margin-left: 120px;
+        }
+        #gaming {
+            height: 300px;
+            margin-bottom: 20px;
+            margin-left: 220px;
+        }
+        #krav{
+            height: 300px;
+            margin-bottom: 20px;
+            margin-left: 320px;
+        }
 }
 
 /* Large and up (Desktops) */
 @media (min-width: 992px) {
-
+    #anime {
+        height: 300px;
+        width: 600px;
+        margin-bottom: 20px;
+        margin-left: 120px;
+        }
+        #gaming {
+            height: 300px;
+            margin-bottom: 20px;
+            margin-left: 220px;
+        }
+        #krav{
+            height: 300px;
+            margin-bottom: 20px;
+            margin-left: 320px;
+        }
 }
 
 /* Extra Large and up (Wide Screen Desktops) */
 @media (min-width: 1200px) {
+    #anime {
+        height: 600px;
+        width: 1200px;
+        margin-bottom: 20px;
+        margin-left: 300px;
+        }
+        #gaming {
+            height: 600px;
+            margin-bottom: 20px;
+            margin-left: 520px;
+        }
+        #krav{
+            height: 600px;
+            margin-bottom: 20px;
+            margin-left: 670px;
+        }
 
 }
